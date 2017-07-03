@@ -21,7 +21,7 @@ class HaseFunctionsGenerator():
         len = 32.
         md5 function.
         """
-        return hashlib.md5(self.text).hexdigest()  # len = 32
+        return hashlib.md5(self.text).hexdigest()
 
     def sha1_function(self):
         """
