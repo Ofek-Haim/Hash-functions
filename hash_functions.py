@@ -8,7 +8,7 @@ Last edit: 3.7.2017
 import hashlib
 
 
-class HaseFunctionsGenerator():
+class HashFunctionsGenerator():
     """
     This class include hase functions,
     you can use them.
@@ -60,7 +60,7 @@ class HaseFunctionsGenerator():
 
 
 def main():
-    f = HaseFunctionsGenerator("")
+    f = HashFunctionsGenerator("")
     print f.md5_function()
     print f.sha1_function()
     print f.sha224_function()
